@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_noblelte.mk
+    $(LOCAL_DIR)/corvus_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_noblelte-user \
-    revengeos_noblelte-userdebug \
-    revengeos_noblelte-eng
+    corvus_noblelte-user \
+    corvus_noblelte-userdebug \
+    corvus_noblelte-eng
