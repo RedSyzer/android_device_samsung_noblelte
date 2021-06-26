@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/zenx_noblelte.mk
+    $(LOCAL_DIR)/arrow_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    zenx_noblelte-user \
-    zenx_noblelte-userdebug \
-    zenx_noblelte-eng
+    arrow_noblelte-user \
+    arrow_noblelte-userdebug \
+    arrow_noblelte-eng
