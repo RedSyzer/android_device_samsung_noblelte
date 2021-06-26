@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_noblelte.mk
+    $(LOCAL_DIR)/zenx_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_noblelte-user \
-    revengeos_noblelte-userdebug \
-    revengeos_noblelte-eng
+    zenx_noblelte-user \
+    zenx_noblelte-userdebug \
+    zenx_noblelte-eng
