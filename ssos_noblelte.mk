@@ -30,10 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := revengeos_noblelte
+PRODUCT_NAME := ssos_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
