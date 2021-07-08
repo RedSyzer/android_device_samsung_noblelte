@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/reloaded_noblelte.mk
+    $(LOCAL_DIR)/pixys_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    reloaded_noblelte-user \
-    reloaded_noblelte-userdebug \
-    reloaded_noblelte-eng
+    pixys_noblelte-user \
+    pixys_noblelte-userdebug \
+    pixys_noblelte-eng
