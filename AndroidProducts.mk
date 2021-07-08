@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_noblelte.mk
+    $(LOCAL_DIR)/du_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
     du_noblelte-user \
