@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_noblelte.mk
+    $(LOCAL_DIR)/legion_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_noblelte-user \
-    fluid_noblelte-userdebug \
-    fluid_noblelte-eng
+    legion_noblelte-user \
+    legion_noblelte-userdebug \
+    legion_noblelte-eng
