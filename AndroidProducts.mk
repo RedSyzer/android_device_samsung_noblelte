@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_noblelte.mk
+    $(LOCAL_DIR)/stag_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_noblelte-user \
-    potato_noblelte-userdebug \
-    potato_noblelte-eng
+    stag_noblelte-user \
+    stag_noblelte-userdebug \
+    stag_noblelte-eng
