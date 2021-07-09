@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_noblelte.mk
+    $(LOCAL_DIR)/potato_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_noblelte-user \
-    derp_noblelte-userdebug \
-    derp_noblelte-eng
+    potato_noblelte-user \
+    potato_noblelte-userdebug \
+    potato_noblelte-eng
