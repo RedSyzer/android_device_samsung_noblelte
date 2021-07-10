@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_noblelte.mk
+    $(LOCAL_DIR)/colt_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_noblelte-user \
-    syberia_noblelte-userdebug \
-    syberia_noblelte-eng
+    colt_noblelte-user \
+    colt_noblelte-userdebug \
+    colt_noblelte-eng
