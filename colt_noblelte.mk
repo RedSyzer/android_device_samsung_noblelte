@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common Colt stuff.
-  $(call inherit-product, vendor/colt/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := colt_noblelte
