@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_noblelte.mk
+    $(LOCAL_DIR)/aosp_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_noblelte-user \
-    xtended_noblelte-userdebug \
-    xtended_noblelte-eng
+    aosp_noblelte-user \
+    aosp_noblelte-userdebug \
+    aosp_noblelte-eng
