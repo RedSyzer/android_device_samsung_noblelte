@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_noblelte.mk
+    $(LOCAL_DIR)/komodo_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_noblelte-user \
-    xtended_noblelte-userdebug \
-    xtended_noblelte-eng
+    komodo_noblelte-user \
+    komodo_noblelte-userdebug \
+    komodo_noblelte-eng
