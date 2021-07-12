@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_noblelte.mk
+    $(LOCAL_DIR)/cos_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_noblelte-user \
-    carbon_noblelte-userdebug \
-    carbon_noblelte-eng
+    cos_noblelte-user \
+    cos_noblelte-userdebug \
+    cos_noblelte-eng
