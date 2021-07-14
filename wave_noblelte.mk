@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit some common WaveOS stuff.
+$(call inherit-product, vendor/wave/configs/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := carbon_noblelte
