@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_noblelte.mk
+    $(LOCAL_DIR)/weeb_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_noblelte-user \
-    conquer_noblelte-userdebug \
-    conquer_noblelte-eng
+    weeb_noblelte-user \
+    weeb_noblelte-userdebug \
+    weeb_noblelte-eng
