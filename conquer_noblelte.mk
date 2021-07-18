@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit ConquerOS custom configurations
+$(call inherit-product, vendor/conquer/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := carbon_noblelte
+PRODUCT_NAME := conquer_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
