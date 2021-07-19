@@ -33,7 +33,7 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 $(call inherit-product, vendor/nezuko/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := nezuko_noblelte
+PRODUCT_NAME := nazuko_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
