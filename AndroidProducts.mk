@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nezuko_noblelte.mk
+    $(LOCAL_DIR)/nazuko_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    nezuko_noblelte-user \
-    nezuko_noblelte-userdebug \
+    nazuko_noblelte-user \
+    nazuko_noblelte-userdebug \
     nazuko_noblelte-eng
