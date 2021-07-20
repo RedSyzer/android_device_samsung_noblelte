@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_noblelte.mk
+    $(LOCAL_DIR)/yodita_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_noblelte-user \
-    aosp_noblelte-userdebug \
-    aosp_noblelte-eng
+    yodita_noblelte-user \
+    yodita_noblelte-userdebug \
+    yodita_noblelte-eng
