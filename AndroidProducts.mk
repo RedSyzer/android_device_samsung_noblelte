@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_noblelte.mk
+    $(LOCAL_DIR)/spark_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_noblelte-user \
-    dot_noblelte-userdebug \
-    dot_noblelte-eng
+    spark_noblelte-user \
+    spark_noblelte-userdebug \
+    spark_noblelte-eng
