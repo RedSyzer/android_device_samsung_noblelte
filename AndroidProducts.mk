@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_noblelte.mk
+    $(LOCAL_DIR)/viper_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_noblelte-user \
-    ancient_noblelte-userdebug \
-    ancient_noblelte-eng
+    viper_noblelte-user \
+    viper_noblelte-userdebug \
+    viper_noblelte-eng
