@@ -29,6 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
+# Inherit from custom vendor
+$(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
