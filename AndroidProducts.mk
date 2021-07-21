@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_noblelte.mk
+    $(LOCAL_DIR)/ion_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_noblelte-user \
-    aosp_noblelte-userdebug \
-    aosp_noblelte-eng
+    ion_noblelte-user \
+    ion_noblelte-userdebug \
+    ion_noblelte-eng
