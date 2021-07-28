@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common CHERISH stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common freaky stuff.
+$(call inherit-product, vendor/freaky/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := cherish_noblelte
+PRODUCT_NAME := freaky_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
