@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_noblelte.mk
+    $(LOCAL_DIR)/freaky_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_noblelte-user \
-    cherish_noblelte-userdebug \
-    cherish_noblelte-eng
+    freaky_noblelte-user \
+    freaky_noblelte-userdebug \
+    freaky_noblelte-eng
