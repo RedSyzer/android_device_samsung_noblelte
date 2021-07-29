@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havocc_noblelte.mk
+    $(LOCAL_DIR)/havoc_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
     havoc_noblelte-user \
