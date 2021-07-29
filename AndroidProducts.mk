@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ion_noblelte.mk
+    $(LOCAL_DIR)/omni_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    ion_noblelte-user \
-    ion_noblelte-userdebug \
-    ion_noblelte-eng
+    omni_noblelte-user \
+    omni_noblelte-userdebug \
+    omni_noblelte-eng
