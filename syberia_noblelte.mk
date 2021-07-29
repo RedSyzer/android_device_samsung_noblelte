@@ -32,6 +32,9 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 # Inherit some common syberia stuff.
 $(call inherit-product, vendor/syberia/common.mk)
 
+# Inherit from MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := syberia_noblelte
 PRODUCT_DEVICE := noblelte
