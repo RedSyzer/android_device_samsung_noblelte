@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common ionOS stuff.
-$(call inherit-product, vendor/ion/config/common_full_phone.mk)
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := ion_noblelte
+PRODUCT_NAME := omni_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
