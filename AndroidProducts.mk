@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ion_noblelte.mk
+    $(LOCAL_DIR)/hentai_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    ion_noblelte-user \
-    ion_noblelte-userdebug \
-    ion_noblelte-eng
+    hentai_noblelte-user \
+    hentai_noblelte-userdebug \
+    hentai_noblelte-eng
