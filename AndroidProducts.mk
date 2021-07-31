@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_noblelte.mk
+    $(LOCAL_DIR)/aosip_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_noblelte-user \
-    derp_noblelte-userdebug \
-    derp_noblelte-eng
+    aosip_noblelte-user \
+    aosip_noblelte-userdebug \
+    aosip_noblelte-eng
