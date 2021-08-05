@@ -35,6 +35,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/noblelte/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_noblelte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/universal7420
 
 # Radio
 BOARD_MODEM_TYPE := ss333
