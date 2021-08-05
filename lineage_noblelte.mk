@@ -31,8 +31,6 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-LAWNCHAIR_OPTOUT := true
-SAKURA_GAPPS := true
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := lineage_noblelte
@@ -40,6 +38,10 @@ PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
+LAWNCHAIR_OPTOUT := true
+SAKURA_GAPPS := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+SAKURA_MAINTAINER := ShuKurenai
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
