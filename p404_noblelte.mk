@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-
-# Inherit some VendorExtra stuff
-$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
+# Inherit some common p404 stuff.
+$(call inherit-product, vendor/404/configs/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_GAPPS_ARCH := arm64
+404_BUILD_MAINTAINER=ShuKurenai
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosip_noblelte
@@ -41,7 +41,6 @@ PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
-TARGET_BOOT_ANIMATION_RES = 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
