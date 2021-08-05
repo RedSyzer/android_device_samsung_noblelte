@@ -29,8 +29,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common LineageOS stuff.
-#(call inherit-product, vendor/corvus/config/common.mk)
+# Inherit some common Komodo stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
+
+# ScreenRecorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
+# Komodo dependencies
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    org.komodo.maintainer=ShuKurenai
+
+KOMODO_VARIANT := RELEASE
+CURRENT_BUILD_TYPE := gapps
+TARGET_BOOT_ANIMATION_RES := 1080
+USE_PIXEL_CHARGING := true
+TARGET_FACE_UNLOCK := true
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := komodo_noblelte
@@ -39,6 +52,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
 TARGET_BOOT_ANIMATION_RES = 1440
+TARGET_FACE_UNLOCK := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    org.komodo.maintainer=ShuKurenai
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
