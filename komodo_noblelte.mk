@@ -40,10 +40,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     org.komodo.maintainer=ShuKurenai
 
 KOMODO_VARIANT := RELEASE
-CURRENT_BUILD_TYPE := gapps
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK := true
+
+#Gapps
+KOMODO_BUILD_GAPPS_TYPE := GAPPS
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := komodo_noblelte
@@ -53,6 +55,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
 TARGET_BOOT_ANIMATION_RES = 1440
 TARGET_FACE_UNLOCK := true
+TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     org.komodo.maintainer=ShuKurenai
