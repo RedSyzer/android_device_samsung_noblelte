@@ -32,6 +32,7 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 # Inherit some common Titanium stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_WIFI_EXT := true
 TITANIUM_BUILD_TYPE := UNOFFICIAL
 $(call inherit-product, vendor/titanium/config/common_full_phone.mk)
 
