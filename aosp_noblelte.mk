@@ -31,6 +31,7 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common ExtendedUI stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/google-customization/apex/apex.mk
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosp_noblelte
