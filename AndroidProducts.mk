@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_noblelte.mk
+    $(LOCAL_DIR)/wrath_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_noblelte-user \
-    aosip_noblelte-userdebug \
-    aosip_noblelte-eng
+    wrath_noblelte-user \
+    wrath_noblelte-userdebug \
+    wrath_noblelte-eng
