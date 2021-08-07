@@ -29,10 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common Colt stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1440
-COLT_BUILD_MAINTAINER="ShuKurenai"
+# Inherit some common ColtOS stuff.
+  $(call inherit-product, vendor/colt/config/common_full_phone.mk)
+  COLT_BUILD_MAINTAINER := ShuKurenai
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := colt_noblelte
@@ -40,6 +39,7 @@ PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
