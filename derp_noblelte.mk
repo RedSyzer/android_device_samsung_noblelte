@@ -32,11 +32,13 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-# Inherit some VendorExtra stuff
-$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
+#GApps
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := aosip_noblelte
+PRODUCT_NAME := derp_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
