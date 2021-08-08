@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common LineageOS stuff.
-#(call inherit-product, vendor/corvus/config/common.mk)
+# Inherit some common Nitrogen OS stuff.
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := nitrogen_noblelte
