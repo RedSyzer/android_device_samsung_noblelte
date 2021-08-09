@@ -29,8 +29,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common Fusion stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Inherit AOSP product configuration
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_INCLUDE_WIFI_EXT := true
+
+# Build type
+CUSTOM_BUILD_TYPE:= OFFICIAL
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fusion.maintainer=ShuKurenau
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosp_noblelte
