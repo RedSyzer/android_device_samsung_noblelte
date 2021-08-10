@@ -36,7 +36,7 @@ TARGET_GAPPS_ARCH := arm64
 404_BUILD_MAINTAINER=ShuKurenai
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := aosip_noblelte
+PRODUCT_NAME := p404_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
