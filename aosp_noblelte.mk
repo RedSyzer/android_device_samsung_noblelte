@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit from aosp vendor
+# Inherit some common Kraken stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+CUSTOM_MAINTAINER := ShuKurenai
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-KRAKEN_BUILD_MAINTAINER=ShuKurenai
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosip_noblelte
