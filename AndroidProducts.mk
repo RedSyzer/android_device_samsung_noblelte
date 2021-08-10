@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_noblelte.mk
+    $(LOCAL_DIR)/liquid_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_noblelte-user \
-    aicp_noblelte-userdebug \
-    aicp_noblelte-eng
+    liquid_noblelte-user \
+    liquid_noblelte-userdebug \
+    liquid_noblelte-eng
