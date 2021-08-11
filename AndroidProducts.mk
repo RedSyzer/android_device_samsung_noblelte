@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/liquid.mk
+    $(LOCAL_DIR)/liquid_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
     liquid_noblelte-user \
