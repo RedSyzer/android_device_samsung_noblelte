@@ -29,22 +29,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common Liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+# Inherit some common Lluvia stuff.
+$(call inherit-product, vendor/lluvia/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := liquid_noblelte
+PRODUCT_NAME := lluvia_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
 TARGET_BOOT_ANIMATION_RES = 1440
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="ShuKurenai"
+# Use Gapps
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
-# ONLY FOR OFFICIAL LIQUID TAG
-LIQUID_BUILDTYPE := RELEASE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
