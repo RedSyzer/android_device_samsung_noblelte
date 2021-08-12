@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/liquid_noblelte.mk
+    $(LOCAL_DIR)/lluvia_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    liquid_noblelte-user \
-    liquid_noblelte-userdebug \
-    liquid_noblelte-eng
+    lluvia_noblelte-user \
+    lluvia_noblelte-userdebug \
+    lluvia_noblelte-eng
