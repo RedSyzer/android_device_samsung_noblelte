@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/liquid_noblelte.mk
+    $(LOCAL_DIR)/bootleg_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    liquid_noblelte-user \
-    liquid_noblelte-userdebug \
-    liquid_noblelte-eng
+    bootleg_noblelte-user \
+    bootleg_noblelte-userdebug \
+    bootleg_noblelte-eng
