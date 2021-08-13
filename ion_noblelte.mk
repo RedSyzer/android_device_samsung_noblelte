@@ -32,13 +32,20 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 # Inherit some common ionOS stuff.
 $(call inherit-product, vendor/ion/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_GAPPS_ARCH := arm64
+ION_BUILD_TYPE := OFFICIAL
+ION_RELEASE_TYPE := Release
+
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ion.maintainer = "ShuKurenai"
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := ion_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
-TARGET_BOOT_ANIMATION_RES = 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
