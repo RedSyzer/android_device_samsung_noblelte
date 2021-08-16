@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/liquid_noblelte.mk
+    $(LOCAL_DIR)/scorpion_noblelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    liquid_noblelte-user \
-    liquid_noblelte-userdebug \
-    liquid_noblelte-eng
+    scorpion_noblelte-user \
+    scorpion_noblelte-userdebug \
+    scorpion_noblelte-eng
