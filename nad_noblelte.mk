@@ -37,6 +37,10 @@ TARGET_GAPPS_ARCH := arm64
 # Nusantara
 NAD_BUILD_TYPE := OFFICIAL
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    NusantaraPapers
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
