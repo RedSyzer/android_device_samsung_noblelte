@@ -29,8 +29,29 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit from common Nusantara configuration
+# Inherit common Nusantara configurations
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
+TARGET_GAPPS_ARCH := arm64
+
+# Nusantara
+NAD_BUILD_TYPE := OFFICIAL
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Pixel Charging
+USE_PIXEL_CHARGING := true
+
+# GApps
+ifeq ($(USE_GAPPS),true)
+USE_AOSP_CLOCK := true
+PRODUCT_PACKAGES += \
+    GAppsExclude
+endif
+
+# Blur
+TARGET_USES_BLUR := true
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := nad_noblelte
