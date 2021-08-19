@@ -31,7 +31,6 @@ $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit common Nusantara configurations
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Nusantara
