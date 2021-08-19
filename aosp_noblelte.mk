@@ -30,8 +30,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
 # Inherit some common ExtendedUI stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/google-customization/apex/apex.mk
+$(call inherit-product, vendor/exui/config/common.mk)
+
+# ExtendedUI Stuff
+EXUI_BUILDTYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1440
+USE_GAPPS := true
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosp_noblelte
@@ -39,7 +44,6 @@ PRODUCT_DEVICE := noblelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920C
-TARGET_BOOT_ANIMATION_RES = 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nobleltejv \
