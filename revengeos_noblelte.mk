@@ -29,8 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from noblelte device
 $(call inherit-product, device/samsung/noblelte/device.mk)
 
-# Inherit some common RevengeOS stuff.
+# Inherit some common revengeos stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
+REVENGEOS_BUILDTYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_GAPPS_ARCH := arm64
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := revengeos_noblelte
